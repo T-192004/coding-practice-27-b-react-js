@@ -1,0 +1,83 @@
+/* Write your CSS code here */
+.registrationform-bg-container {
+  background-size: cover;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.registrationform-main-heading {
+  color: #ea580c;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 40px;
+  text-align: left;
+  width: 360px;
+  border-radius: 4px;
+  box-shadow: 3px 5px 5px 3px #cbd2d9;
+}
+.input-label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+.input-box {
+  color: #9aa5b1;
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  font-size: 14px;
+  border: solid 2px #cbd2d9;
+}
+.input-container {
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+}
+.form-btn {
+  max-width: 150px;
+  color: #ffffff;
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  align-self: center;
+  border-radius: 10px;
+}
+.error {
+  background-color: #fef2f4;
+  border: solid 2px #ff0b37;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+}
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.success-icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5px;
+}
+.success {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
